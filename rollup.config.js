@@ -34,7 +34,7 @@ const umd_config = {
   output: {
     file: 'dist/index.umd.min.js',
     format: 'umd',
-    name: 'root-finder',
+    name: 'dir-finder',
     exports: 'named',
     indent: false,
   },

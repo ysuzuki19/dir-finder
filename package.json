@@ -1,5 +1,5 @@
 {
-  "name": "root-finder",
+  "name": "dir-finder",
   "version": "1.0.0",
   "description": "TypeScript Library for finding directory",
   "main": "./dist/index.umd.min.js",
@@ -20,7 +20,8 @@
   "keywords": [
     "typescript",
     "git-root",
-    "node-root"
+    "node-root",
+    "server"
   ],
   "author": "ysuzuki19 (https://ysuzuki19.github.io/)",
   "license": "MIT",

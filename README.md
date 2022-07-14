@@ -1,4 +1,4 @@
-# root-finder
+# dir-finder
 
 TypeScript Library for finding directory.
 
@@ -7,7 +7,7 @@ By this library, you can find git/node root easily in your code.😉
 # install
 
 ```bash
-$ npm i root-finder
+$ npm i dir-finder
 ```
 
 # How to use
