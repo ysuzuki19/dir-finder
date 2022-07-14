@@ -7,7 +7,7 @@ By this library, you can find git/node root easily in your code.😉
 # install
 
 ```bash
-$ npm i dir-finder
+$ npm i root-finder
 ```
 
 # How to use
