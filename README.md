@@ -1,29 +1,35 @@
-# npm package template
+# root-finder
 
-Template repository for npm package
+TypeScript Library for finding directory.
 
-- typescript
-- 👁️public npm package
-- auto publish with github workflow
-- rollup
-- (optional) for react
+By this library, you can find git/node root easily in your code.😉
 
-# setup
+# install
 
-- exec `npm init`
-- set `NPM_TOKEN` in your github repository (in Github, `Settings/Secrets/Actions/New repository secret`)
-- rewrite `LibraryName` to your library-name in `rollup.config.js`.
+```bash
+$ npm i dir-finder
+```
 
-## Optional
+# How to use
 
-- if you develop react library, please uncomment some `external: ['react']`,`globals: { react: 'react' }` in `rollup.config.js`
-- replace `LICENSE`
+## Find git root
 
-# how to publish
+function find by `.git` existing
 
-1. click `Create a new release`
-1. click `Choose a tag` and create new tag for your release
-1. write `Release title`
-1. write `Describe this release`
-1. click `Publish release`
-1. 🚀 auto start workflow and publish!!
+```typescript
+import { find_git_root } from './index';
+
+// find git root
+const res = find_git_root(__dirname);
+```
+
+## Find node root
+
+function find by `node_modules` existing
+
+```typescript
+import { find_git_root } from './index';
+
+// find node root
+const res = find_node_root(__dirname);
+```
